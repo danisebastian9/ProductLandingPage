@@ -8,14 +8,11 @@ body {
     background-color: #eee;
 }
 
-header {
+.nav-bar {
     height: 10vh;
     background: #61D7a4;
+}
+
+.nav-Links {
     display: flex;
-    list-style: none;
-    width: 50%;
-    height: 100%;
-    justify-content: space-around;
-    align-items: center;
-    margin-left: auto;
 }
