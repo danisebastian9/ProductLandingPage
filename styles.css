@@ -6,11 +6,12 @@
 
 body {
     background-color: #eee;
+    font-family: Montserrat, sans-serif;
 }
 
 #nav-bar {
     height: 10vh;
-    background: #61D7a4;
+    background: hsl(0, 0%, 70%);
 }
 
 .nav-Links {
@@ -34,12 +35,54 @@ body {
 }
 
 .nav-Links li a:hover {
-    color: hsl(240, 100%, 65%)
+    color: hsl(9, 39%, 49%);
 }
 
 .nav-Links li a {
-    color: hsl(240, 57%, 65%);
+    color: #af844c;
     text-decoration: none;
     font-weight: bold;
     font-size: 19px;
+}
+
+#section1 {
+    text-align: center;
+    padding: 40px 10px;
+}
+
+#section1 h1 {
+    font-style: italic;
+    text-shadow: 2px 2px 3px #af844c;
+}
+
+#shiftImg {
+    max-width: 300px;
+    border-radius: 18px;
+    margin-top: 20px;
+    opacity: 0.8;
+}
+
+#email {
+    width: 50%;
+    height: 40px;
+    font-family:  Montserrat, sans-serif;
+    font-weight: bold;
+    padding: 10px;
+    margin: 20px 10px ;
+    border-radius: 10px;
+    border: solid 1px hsl(0, 0%, 70%);
+}
+
+#submit {
+    width: 40%;
+    background-color: #af844c;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transform: skewX(-14deg);
+
 }
