@@ -30,6 +30,7 @@ body {
 .nav-link {
     padding: 8px;
     margin: 8px;
+    margin-right: 35px;
 }
 
 .nav-Links li a:hover {
