@@ -8,11 +8,26 @@ body {
     background-color: #eee;
 }
 
-.nav-bar {
+#nav-bar {
     height: 10vh;
     background: #61D7a4;
 }
 
 .nav-Links {
     display: flex;
+    list-style: none;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: auto;
+    flex-grow: 1;
+}
+
+#header-img {
+    flex-grow: 2;
+}
+.nav-link {
+    padding: 8px;
+    margin: 8px;
 }
