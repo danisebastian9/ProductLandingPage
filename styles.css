@@ -31,3 +31,14 @@ body {
     padding: 8px;
     margin: 8px;
 }
+
+.nav-Links li a:hover {
+    color: hsl(240, 100%, 65%)
+}
+
+.nav-Links li a {
+    color: hsl(240, 57%, 65%);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 19px;
+}
