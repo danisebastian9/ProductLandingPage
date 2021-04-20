@@ -11,7 +11,7 @@ body {
 
 #nav-bar {
     height: 10vh;
-    background: hsl(0, 0%, 70%);
+    background: hsl(0, 0%, 4%);
 }
 
 .nav-Links {
@@ -39,7 +39,7 @@ body {
 }
 
 .nav-Links li a {
-    color: #af844c;
+    color: rgb(255, 166, 0);
     text-decoration: none;
     font-weight: bold;
     font-size: 19px;
@@ -52,7 +52,7 @@ body {
 
 #section1 h1 {
     font-style: italic;
-    text-shadow: 2px 2px 3px #af844c;
+    text-shadow: 2px 2px 3px darkorange;
 }
 
 #shiftImg {
@@ -75,7 +75,7 @@ body {
 
 #submit {
     width: 40%;
-    background-color: #af844c;
+    background-color: darkorange;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -86,17 +86,22 @@ body {
     transform: skewX(-14deg);
 }
 
-i {
-    size: 10px;
-}
+#features .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 125px;
+    width: 20vw;
+    color: darkorange;
+  }
 
-#section3 {
+#video {
     position: relative;
     padding-bottom: 56.25%; /* 16:9 */
     height: 0;
 }
 
-#section3 iframe {
+#video iframe {
     position: absolute;
     top: 0;
     left: 0;
