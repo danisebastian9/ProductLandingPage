@@ -86,6 +86,9 @@ body {
     transform: skewX(-14deg);
 }
 
+i {
+    size: 10px;
+}
 
 #section3 {
     position: relative;
