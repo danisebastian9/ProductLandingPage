@@ -9,6 +9,10 @@ body {
     font-family: Montserrat, sans-serif;
 }
 
+#page-wrapper {
+  position: relative;
+}
+
 #nav-bar {
     height: 10vh;
     background: hsl(0, 0%, 4%);
