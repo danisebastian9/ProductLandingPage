@@ -244,6 +244,7 @@ body {
 .productImage {
     max-width: 300px;
     max-height: 300px;
+    border-radius: 5px;
 }
 
 #pricing {
