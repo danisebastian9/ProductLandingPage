@@ -34,6 +34,13 @@ body {
     width: 10%;
     padding: 1% 2% 1% 5%;
 }
+
+#header-img {
+  max-width: 80px;
+  border-radius: 5px;
+  border: darkorange solid 2px;
+}
+
 .nav-link {
     padding: 8px;
     margin: 8px;
